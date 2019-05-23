@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".uasWebService">
+
+    <TextView
+        android:id="@+id/testJSON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnJSON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="JSON"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="423dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="kota :"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="79dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Siang :"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="116dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:text="Malam  :"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:text="Dini hari"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <TextView
+        android:id="@+id/tsiang"
+        android:layout_width="156dp"
+        android:layout_height="25dp"
+        android:layout_alignTop="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="116dp" />
+
+    <TextView
+        android:id="@+id/tmalam"
+        android:layout_width="153dp"
+        android:layout_height="28dp"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_toEndOf="@+id/textView3"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <TextView
+        android:id="@+id/tdinihari"
+        android:layout_width="153dp"
+        android:layout_height="24dp"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_toEndOf="@+id/textView3"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="198dp" />
+
+    <TextView
+        android:id="@+id/tsuhu"
+        android:layout_width="153dp"
+        android:layout_height="23dp"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_toEndOf="@+id/textView3"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="233dp" />
+
+    <TextView
+        android:id="@+id/tkota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <TextView
+        android:id="@+id/tkelembapan"
+        android:layout_width="185dp"
+        android:layout_height="20dp"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+    <TextView
+        android:id="@+id/tkota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suhu :"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="236dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kelambapan :"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+
+</android.support.constraint.ConstraintLayout>
